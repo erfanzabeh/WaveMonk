@@ -1,3 +1,3 @@
 # WaveMonk
 Detection and Quantification of Traveling Wave in Monkey Utah array recordings
-[Screenshot](Analysis Overview.png)
+[Screenshot](https://github.com/erfanzabeh/WaveMonk/blob/main/Analysis%20Overview.png)
