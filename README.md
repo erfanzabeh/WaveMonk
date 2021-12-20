@@ -5,12 +5,9 @@ Detection and Quantification of Traveling Wave in Monkey Utah array recordings
 
 ## About
 
-Replicating Google Deep Mind's paper ["Vector-based navigation using grid-like representations in artificial agents."](https://www.nature.com/articles/s41586-018-0102-6)
+Identification aand quantification of cortical traveling waves: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
 
 ## Result
 
-![grid visualization](./Analysis%20Overview.png)
+![Simulation paradigm](./Analysis%20Overview.png)
 
-# References
-
-Simulated rat movement data is taken from Unity Technologies' [rat-rnn experiment repository](https://github.com/Unity-Technologies/rat-rnn).
