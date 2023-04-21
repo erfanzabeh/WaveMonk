@@ -1,5 +1,5 @@
 # WaveMonk
-Detect and Quantify Cortical Traveling Wave in Monkey Utah array recordings.
+Detect and Quantify Cortical Traveling Wave in NHP Utah array recordings.
 ## About
 Identification and quantification of cortical traveling waves of the follwoing dataset: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
 
