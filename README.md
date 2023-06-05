@@ -33,7 +33,7 @@ The user would then be ready to detect waves at specified timepoints in the data
 
 Tested on MATLAB under OSX and Linux.
 
-## Citing **wave**
+## Citing **wavemonk**
 
 If you publish work using or mentioning **wavmonke**, I would greatly appreciate if you would cite our paper ([bibtex](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract):
 
