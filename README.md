@@ -18,9 +18,6 @@ Run *pathtool*, or write the **wavemonk** directory directly into the MATLAB pat
 
 Consider a datacube **X**, where the first two dimensions index space and the third indexes time (with sampling frequency *Fs*): 
 
-<p align="center">
-	<img src="https://mullerlab.ca/assets/img/gp-demo/datacube.png">
-</p>
 
 A sample analysis workflow may be:
 
