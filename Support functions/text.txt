@@ -1,0 +1,1 @@
+These are the functions that were usefull above the corecodes of project
