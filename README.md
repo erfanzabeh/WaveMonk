@@ -3,16 +3,15 @@ Detect and Quantify Cortical Traveling Wave in NHP Utah array recordings.
 ## About
 Identification and quantification of cortical traveling waves of the follwoing dataset: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
 
-
-## Analysis paradigm
-
-![Analysis Paradigm](./Analysis%20Overview.png)
-
-Traveling Wave Strength calculation paragiam.  Illustrating the analysis paradigm obtaining wave strength maps. For each recording electrode in position x and y the raw LFP signal (Vx,y(t)) decomposed to oscillatory components (vfx,y(t)) with a frequency range (f) from 2 to 50 Hz. For each decomposed oscillation the phase of oscillation (fx,y(t)) is extracted using Hilbert transform and then all the electrode phases are pulled together to develop phase-location space for calculation of traveling wave properties. The traveling wave properties for each oscillation decomposition were calculated independently and then the strength of the wave merged for all frequencies illustrated in the PGD map.
-
 ## Install
 
 Run *pathtool*, or write the **wavemonk** directory directly into the MATLAB path with the functions *addpath* and *genpath*.
+
+## Analysis paradigm
+
+Traveling Wave Strength calculation paragiam.  Illustrating the analysis paradigm obtaining wave strength maps. For each recording electrode in position x and y the raw LFP signal (Vx,y(t)) decomposed to oscillatory components (vfx,y(t)) with a frequency range (f) from 2 to 50 Hz. For each decomposed oscillation the phase of oscillation (fx,y(t)) is extracted using Hilbert transform and then all the electrode phases are pulled together to develop phase-location space for calculation of traveling wave properties. The traveling wave properties for each oscillation decomposition were calculated independently and then the strength of the wave merged for all frequencies illustrated in the PGD map.
+
+![Analysis Paradigm](./Analysis%20Overview.png)
 
 ## Usage
 
@@ -39,9 +38,4 @@ Tested on MATLAB under OSX and Linux.
 If you publish work using or mentioning **wavmonke**, I would greatly appreciate if you would cite our paper ([bibtex](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract):
 
 [E. Zabeh, N.C. Foley, J. Jacobs, J.P. Gottlieb, Traveling waves in the monkey frontoparietal network predict recent reward memory
-,bioRxiv 2022.02.03.478583; doi: https://doi.org/10.1101/2022.02.03.478583.](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract)
-
-## Developer
-
-[Lyle Muller](http://mullerlab.ca) (Western University)
-
+, In press at Nature Communication](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract)
