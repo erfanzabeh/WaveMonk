@@ -33,9 +33,9 @@ The user would then be ready to detect waves at specified timepoints in the data
 
 Tested on MATLAB under OSX and Linux.
 
-## Citing **wavemonk**
+## Citing **WaveMonk**
 
-If you publish work using or mentioning **wavmonke**, I would greatly appreciate if you would cite our paper ([bibtex](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract):
+If you publish work using or mentioning **WavMonke**, I would greatly appreciate if you would cite our paper ([bibtex](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract):
 
 [E. Zabeh, N.C. Foley, J. Jacobs, J.P. Gottlieb, Traveling waves in the monkey frontoparietal network predict recent reward memory
 , In press at Nature Communication](https://www.biorxiv.org/content/10.1101/2022.02.03.478583v1.abstract)
