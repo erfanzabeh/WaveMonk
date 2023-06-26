@@ -6,7 +6,7 @@ Identification and quantification of cortical traveling waves of the follwoing d
 
 ## Install
 
-Run *pathtool*, or write the **wavemonk** directory directly into the MATLAB path with the functions *addpath* and *genpath*.
+Run or write the **wavemonk** directory directly into the MATLAB path with the functions *addpath* and *genpath*.
 
 ## Usage
 
