@@ -32,7 +32,7 @@ Traveling Wave Strength calculation paragiam.  Illustrating the analysis paradig
 
 ## Testing
 
-Tested on MATLAB under OSX and Linux.
+Tested on MATLAB under OSX and Windows.
 
 ## Citing **WaveMonk**
 
