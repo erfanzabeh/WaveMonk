@@ -3,7 +3,7 @@
 ![Build Status](https://github.com/DeepMReye/DeepMReye/actions/workflows/main.yml/badge.svg)
 [![NatNeuro Paper](https://img.shields.io/badge/DOI-10.1038%2Fs41593--021--00947--w-blue)](https://doi.org/10.1038/s41593-021-00947-w)
 ![Docker Pulls](https://img.shields.io/docker/pulls/deepmreye/deepmreye)
-![Logo](media/deepmreye_logo.png)
+
 
 # WaveMonk
 High-resolution measurements and detection of cortical traveling waves.
