@@ -5,9 +5,7 @@
 
 # WaveMonk
 High-resolution measurements and detection of cortical traveling waves.
-
-## About
-Identification and quantification of cortical traveling waves of the follwoing dataset: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
+This repository designed for identification and quantification of cortical traveling waves and is has been used for the following dataset: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
 
 ![Demo video](media/ErfunTwitt.gif)
 ## Install
