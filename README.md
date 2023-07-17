@@ -9,7 +9,7 @@ High-resolution measurements and detection of cortical traveling waves.
 ## About
 Identification and quantification of cortical traveling waves of the follwoing dataset: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
 
-![Demo video](media/final.gif)
+![Demo video](media/final.mp4)
 ## Install
 
 Run or write the **wavemonk** directory directly into the MATLAB path with the functions *addpath* and *genpath*.
