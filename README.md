@@ -3,13 +3,13 @@
 [![NatCom Paper](https://img.shields.io/badge/DOI-10.1038%2Fs41593--021--00947--w-blue)](https://doi.org/10.1101/2022.02.03.478583)
 ![Docker Pulls](https://img.shields.io/docker/pulls/deepmreye/deepmreye)
 
-
 # WaveMonk
 High-resolution measurements and detection of cortical traveling waves.
 
 ## About
 Identification and quantification of cortical traveling waves of the follwoing dataset: ["Traveling waves in the monkey frontoparietal network predict recent reward memory "](https://www.nature.com/articles)
 
+![Demo video](media/final.gif)
 ## Install
 
 Run or write the **wavemonk** directory directly into the MATLAB path with the functions *addpath* and *genpath*.
@@ -32,7 +32,7 @@ The user would then be ready to detect waves at specified timepoints in the data
 
 ## Analysis paradigm
 
-Traveling Wave Strength calculation paragiam.  Illustrating the analysis paradigm obtaining wave strength maps. For each recording electrode in position x and y the raw LFP signal (Vx,y(t)) decomposed to oscillatory components (vfx,y(t)) with a frequency range (f) from 2 to 50 Hz. For each decomposed oscillation the phase of oscillation (fx,y(t)) is extracted using Hilbert transform and then all the electrode phases are pulled together to develop phase-location space for calculation of traveling wave properties. The traveling wave properties for each oscillation decomposition were calculated independently and then the strength of the wave merged for all frequencies illustrated in the PGD map.
+Traveling Wave Strength calculation paradigm.  Illustrating the analysis paradigm obtaining wave strength maps. For each recording electrode in position x and y the raw LFP signal (Vx,y(t)) decomposed to oscillatory components (vfx,y(t)) with a frequency range (f) from 2 to 50 Hz. For each decomposed oscillation the phase of oscillation (fx,y(t)) is extracted using Hilbert transform and then all the electrode phases are pulled together to develop phase-location space for calculation of traveling wave properties. The traveling wave properties for each oscillation decomposition were calculated independently and then the strength of the wave merged for all frequencies illustrated in the PGD map.
 
 ![Analysis Paradigm](./Analysis%20Overview.png)
 
