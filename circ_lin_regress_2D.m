@@ -3,8 +3,7 @@ function [direction,spatial_frequency,sl,Rsquared] = circ_lin_regress_2D(circula
 % circular variable. One exmaple of the application is to fit phase traveling wave
 % from linear coordinates.
 %
-% For method details, see Zhang H, Watrous AJ, Patel A, Jacobs J. Theta and
-% alpha oscillations are traveling waves in the human neocortex. Neuron. 2018.
+% For method details, see Zabeh et al. 2023
 %
 % linearV is a N by 2 matrix convey the linear variables. circularV (in radian) is a N
 % by 1 array, which we are trying to fit. The algorithm handles wrapping-up cases on its own.
