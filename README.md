@@ -12,19 +12,6 @@ This repository designed for identification and quantification of cortical trave
 
 Run or write the **wavemonk** directory directly into the MATLAB path with the functions *addpath* and *genpath*.
 
-## Usage
-
-Consider a datacube **X**, where the first two dimensions index space and the third indexes time (with sampling frequency *Fs*): 
-
-
-A sample analysis workflow may be:
-
-    >> x = bandpass_filter( x, lowpass_cutoff, hipass_cutoff, filter_order, Fs );
-    >> x = zscore_independent( x );
-    >> X = analytic_signal( x );  % X now contains the "analytic signal"
-    >> a = abs( X );  % a contains the "amplitude envelope" at each point in time
-    >> p = angle( X );  % p now contains the "phase maps"
-    >> f = instantaneous_frequency( a, Fs ); % f contains "instantaneous frequency"
 
 The user would then be ready to detect waves at specified timepoints in the data by using the phase maps as input to the relevant function (e.g. *phase_correlation_distance*, *phase_correlation_rotation*).
 
